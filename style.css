@@ -2,6 +2,7 @@ body {
   margin: 0px;
   font-family: SoDo Sans SemiBold, Helvetica Neue, Helvetica, Arial, Helvetica,
     sans-serif;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -77,4 +78,87 @@ body {
 
 .join-now:hover {
   background: #494949;
+}
+
+h2 {
+  font-size: 29px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.product img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.product-image,
+.product-text {
+  max-width: 50%;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  align-content: stretch;
+  flex-direction: column;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 40px;
+  margin: auto;
+}
+
+.product button {
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  background: transparent;
+  margin-top: 20px;
+}
+
+.button-outline-white {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.button-outline-green {
+  border: 1px solid #1e3932;
+  color: #1e3932;
+}
+
+.button-green {
+  background: #1e3932 !important;
+  border: #1e3932 !important;
+  color: #fff;
+}
+
+.button-outline-white:hover,
+.button-outline-green:hover {
+  background: #00000020;
+}
+
+.button-green:hover {
+  opacity: 0.9 !important;
 }
